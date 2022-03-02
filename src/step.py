@@ -1,6 +1,5 @@
-from .pipereg import pipereg
+from sscutils import register
 
-
-@pipereg.register
+@register
 def template_step():
     pass
