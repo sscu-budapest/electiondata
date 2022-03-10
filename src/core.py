@@ -1,5 +1,5 @@
 from sscutils import register
 
 @register
-def template_step():
+def template_proc():
     pass
