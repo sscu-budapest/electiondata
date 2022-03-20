@@ -1,5 +1,5 @@
-from sscutils import register
+import datazimmer as dz
 
-@register
+@dz.register
 def template_proc():
     pass
