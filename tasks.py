@@ -1,1 +1,1 @@
-from sscutils import ns
+from datazimmer import ns
