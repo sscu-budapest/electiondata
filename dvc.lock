@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  complete-hungarian:
+    cmd: datazimmer run-step complete-hungarian
+    deps:
+    - path: src/hungarian.py
+      md5: 3e2b4f64c09e8895fbaea4cb64b7d964
+      size: 12172
+    outs:
+    - path: data/elections/hungarian/complete
+      md5: b6d06a97af074e660398cd38c291af64.dir
+      size: 17171759
+      nfiles: 8
