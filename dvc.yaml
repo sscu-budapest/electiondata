@@ -1,8 +1,8 @@
 stages:
   complete-hungarian:
-    cmd: datazimmer run-step complete-hungarian
+    cmd: dz run-step hungarian complete
     deps:
-    - src/hungarian.py
+    - src/hungarian/parsing.py
     outs:
     - data/elections/hungarian/complete:
         persist: true

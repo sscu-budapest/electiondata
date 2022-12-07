@@ -43,11 +43,8 @@ class ElectionPrecinct(dz.AbstractEntity):
     election = Election
 
 
-class Race(dz.AbstractEntity):
-    rid = dz.Index & str
-
-
 class VoteRecord(dz.AbstractEntity):
+
     vid = dz.Index & str
 
     vote_count = int

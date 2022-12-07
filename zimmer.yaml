@@ -1,2 +1,5 @@
 name: elections
-version: v0.0
+version: v0.1
+aswan_projects:
+  hun-election:
+    current_leaf: 0d10cfeb9da2b97eb633
